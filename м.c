@@ -5,7 +5,7 @@
 
 int main() 
 { 
-    setlocale(LC_ALL, "Rus");
+  setlocale(LC_ALL, "Rus");
  
     printf("Диапазон значений разных типов:\n"); 
     printf("Со знаком char от %d до %d\n", SCHAR_MIN, SCHAR_MAX);
@@ -17,5 +17,5 @@ int main()
     printf("Со знаком long от %ld до %ld\n", LONG_MIN , LONG_MAX);  
     printf("Без знака long от 0 до %lu\n", ULONG_MAX);
     
-return 0; 
+  return 0; 
 }
