@@ -1,5 +1,5 @@
 #include <stdio.h> 
-#include <limits.h> //эта директива позволяет запускать штуки с max и min 
+#include <limits.h> //СЌС‚Р° РґРёСЂРµРєС‚РёРІР° РїРѕР·РІРѕР»СЏРµС‚ Р·Р°РїСѓСЃРєР°С‚СЊ С€С‚СѓРєРё СЃ max Рё min  
 #include <locale.h>
  
 
@@ -7,15 +7,15 @@ int main()
 { 
     setlocale(LC_ALL, "Rus");
  
-    printf("Диапазон значений разных типов:\n"); 
-    printf("Со знаком char от %d до %d\n", SCHAR_MIN, SCHAR_MAX);
-    printf("Без знака char от 0 до %d\n", UCHAR_MAX);
-    printf("Со знаком shrt от %d до %d\n", SHRT_MIN, SHRT_MAX); 
-    printf("Без знака shrt от 0 до %d\n", USHRT_MAX); 
-    printf("Со знаком int от %d до %d\n", INT_MIN, INT_MAX );
-    printf("Без знака int от 0 до %u\n", UINT_MAX);  
-    printf("Со знаком long от %ld до %ld\n", LONG_MIN , LONG_MAX);  
-    printf("Без знака long от 0 до %lu\n", ULONG_MAX);
+    printf("Р”РёР°РїР°Р·РѕРЅ Р·РЅР°С‡РµРЅРёР№ СЂР°Р·РЅС‹С… С‚РёРїРѕРІ:\n"); 
+    printf("РЎРѕ Р·РЅР°РєРѕРј char РѕС‚ %d РґРѕ %d\n", SCHAR_MIN, SCHAR_MAX);
+    printf("Р‘РµР· Р·РЅР°РєР° char РѕС‚ 0 РґРѕ %d\n", UCHAR_MAX);
+    printf("РЎРѕ Р·РЅР°РєРѕРј shrt РѕС‚ %d РґРѕ %d\n", SHRT_MIN, SHRT_MAX); 
+    printf("Р‘РµР· Р·РЅР°РєР° shrt РѕС‚ 0 РґРѕ %d\n", USHRT_MAX); 
+    printf("РЎРѕ Р·РЅР°РєРѕРј int РѕС‚ %d РґРѕ %d\n", INT_MIN, INT_MAX );
+    printf("Р‘РµР· Р·РЅР°РєР° int РѕС‚ 0 РґРѕ %u\n", UINT_MAX);  
+    printf("РЎРѕ Р·РЅР°РєРѕРј long РѕС‚ %ld РґРѕ %ld\n", LONG_MIN , LONG_MAX);  
+    printf("Р‘РµР· Р·РЅР°РєР° long РѕС‚ 0 РґРѕ %lu\n", ULONG_MAX);
     
 return 0; 
 }
